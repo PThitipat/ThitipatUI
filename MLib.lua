@@ -5010,7 +5010,7 @@ function MacLib:Window(Settings)
 
 	function WindowFunctions:SetAcrylicBlurState(State)
 		acrylicBlur = State
-		base.BackgroundTransparency = State and 0.05 or 0
+		base.BackgroundTransparency = State and 0.07 or 0
 	end
 
 	function WindowFunctions:GetAcrylicBlurState()
